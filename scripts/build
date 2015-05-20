@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -ex
 
 if [ -x "$(which wrapdocker)" ]; then
     wrapdocker > /tmp/docker.log 2>&1
