@@ -1,4 +1,6 @@
 # test-images
+[![Build Status](http://drone.rancher.io/api/badge/github.com/rancherio/test-images/status.svg?branch=master)](http://drone.rancher.io/github.com/rancherio/test-images)
+
 This repo is home to the Dockerfiles for images that we use while testing Rancher.
 
 ## Contact

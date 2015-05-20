@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+
+if [ -x "$(which wrapdocker)" ]; then
+    wrapdocker > /tmp/docker.log 2>&1
+    docker ps
+fi
+
+cd $(dirname $0)
+
+for dir in ../images/*; do
+    NAME=$(basename $dir)
+    TAG=$(<$dir/version)
+    docker build -t rancher-test/$NAME:$TAG $dir
+    echo Created rancher-test/$NAME:$TAG
+done
