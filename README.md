@@ -5,9 +5,9 @@ This repo is home to the Dockerfiles for images that we use while testing Ranche
 
 ## Contact
 For bugs, questions, comments, corrections, suggestions, etc., open an issue in
- [rancherio/rancher](//github.com/rancherio/rancher/issues) with a title starting with `[test-images] `.
+ [rancher/rancher](//github.com/rancher/rancher/issues) with a title starting with `[test-images] `.
 
-Or just [click here](//github.com/rancherio/rancher/issues/new?title=%5Btest-images%5D%20) to create a new issue.
+Or just [click here](//github.com/rancher/rancher/issues/new?title=%5Btest-images%5D%20) to create a new issue.
 
 
 # License
